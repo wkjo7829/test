@@ -28,7 +28,7 @@ public class Main {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("JDBC 드라이버 로드 성공");
 		} catch (ClassNotFoundException e) {
-			System.out.println("JDBC 드라이버 로드 실패!!: " + e.getMessage());
+			System.out.println("JDBC 드라이버 로드 실패!!!!!!!!: " + e.getMessage());
 		}
 	}
 
